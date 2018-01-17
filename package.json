@@ -1,0 +1,23 @@
+{
+  "name": "mahjong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development node dist/main",
+    "debug": "DEBUG=mahjong:*,-not_this & npm start"
+  },
+  "author": "abing",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/debug": "0.0.30",
+    "debug": "^3.1.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^4.0.0-alpha.1",
+    "typescript": "^2.6.2"
+  }
+}

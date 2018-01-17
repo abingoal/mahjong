@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "declaration": true, // 生成相应的.d.ts文件
+    "removeComments": true, // 删除注释
+    "target": "es2017",
+    "module": "commonjs",
+    "outDir": "dist",
+    "experimentalDecorators": true // 装饰器特性启用
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
