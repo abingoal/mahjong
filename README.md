@@ -9,5 +9,6 @@
 
 胡牌形式 N * ABC + M *DDD + EE
 
-流程图
+#### 流程图
+
 ![](statics/imgs/MahjongFlow.png)
